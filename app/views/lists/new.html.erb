@@ -1,0 +1,8 @@
+<div class="container col-4">
+<h1>Create new lists!</h1>
+<%= simple_form_for @list do |f| %>
+  <%= f.input :name %>
+  <%= f.button :submit, class:"btn btn-primary" %>
+<% end %>
+<%= link_to "Home Page", root_path %>
+</div>
