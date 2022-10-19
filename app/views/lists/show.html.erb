@@ -4,6 +4,8 @@
 <ul class = "list-group" >
 <% @list.bookmarks.each do |bookmark| %>
 <li class= "list-group-item">
+<img src="<%= bookmark.movie.poster_url %>" alt="" height="300">
+<br>quit
 <%= bookmark.id %>
 <%= bookmark.movie.title %>
 <%= bookmark.comment %>
