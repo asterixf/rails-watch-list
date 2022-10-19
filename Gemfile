@@ -74,3 +74,6 @@ gem "font-awesome-sass", "~> 6.1"
 gem "simple_form", github: "heartcombo/simple_form"
 
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main'
+
+# Gemfile
+gem "dotenv-rails", groups: [:development, :test]
